@@ -156,7 +156,7 @@ function Home() {
             hesitate to contact me whenever.
           </p>
 
-          <a href="mailto:ayostephen.tech@gmail.com" className="mail-button">
+          <a href="mailto:tervenda18@gmail.com" className="mail-button">
             Mail me
           </a>
         </div>

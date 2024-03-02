@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import { useInView } from "framer-motion";
 
 function About() {
@@ -8,8 +8,8 @@ function About() {
     <div className={isInView ? "about about-anim" : "about"} ref={ref}>
       <h1>About Me</h1>
       <p>
-        Hello! My name is Stephen and I enjoy coding. My interest in web
-        development started in 2021 when I had to develop a website for a school
+        Hello! My name is Terver and I enjoy coding. My interest in web
+        development started in 2018 when I had to develop a website for a
         project. Using my previous coding experience to implement design
         algorithms increased my interest in frontend development and that
         kick-started my web development career.

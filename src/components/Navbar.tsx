@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -121,8 +121,8 @@ function Navbar() {
                 }}
                 fill={"#64ffda"}
               >
-                <tspan x="-14" y="25.05">
-                  S
+                <tspan x="-20" y="25.05">
+                  T
                 </tspan>
               </text>
             </g>

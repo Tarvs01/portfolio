@@ -1,5 +1,5 @@
-import React, { useEffect, useState, useRef } from "react";
-import { motion, useInView } from "framer-motion";
+import { useEffect, useState, useRef } from "react";
+import { useInView } from "framer-motion";
 import { MainProjectData } from "../types/types";
 
 function MainProjectCard({

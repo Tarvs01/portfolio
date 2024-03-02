@@ -24,6 +24,7 @@ function Skills() {
         <li>VS code</li>
         <li>Postman</li>
         <li>mySql</li>
+        <li>Firebase</li>
       </ul>
     </div>
   );

@@ -1,10 +1,11 @@
-import React, { useRef } from "react";
+/* import { useRef } from "react"; */
 import { SkillsData } from "../types/types";
-import { motion, useInView } from "framer-motion";
+import { motion } from "framer-motion";
+/* import { useInView } from "framer-motion"; */
 
 function Skill({ name, percent }: SkillsData) {
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true });
+  /* const ref = useRef(null);
+  const isInView = useInView(ref, { once: true }); */
   return (
     <div className="skill-cont">
       <div className="skill-words">
