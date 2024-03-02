@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import WorkCard from "./WorkCard";
 import Navbar from "./Navbar";
 import { projects } from "../data/projects";
@@ -6,10 +6,7 @@ import { JobCard } from "../types/types";
 import { mainProjects } from "../data/mainProjects";
 import MainProjectCard from "./MainProjectCard";
 import Footer from "./Footer";
-import { motion } from "framer-motion";
 import { Link } from "react-scroll";
-import { skills } from "../data/skills";
-import Skill from "./Skill";
 import About from "./About";
 import Skills from "./Skills";
 
