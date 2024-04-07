@@ -10,6 +10,14 @@ interface JobCard {
 export const projects: JobCard[] = [
     {
         id: 1,
+        name: "Connect Four",
+        description: "An online version of the popular Connect Four game with PVP and PVC modes. The PVC features a briliant AI opponent",
+        gitLink: "https://github.com/Tarvs01/Connect_Four",
+        externalLink: "https://connect-four-jm2y.onrender.com",
+        toolsUsed: ["React", "CSS", "Framer Motion"]
+    },
+    {
+        id: 2,
         name: "Blizzard Clone",
         description: "A clone of the official Blizzard website homepage. Built with React",
         gitLink: "https://github.com/Tarvs01/Blizzard-Clone",
