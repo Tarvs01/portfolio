@@ -9,7 +9,7 @@ interface JobCard {
 
 export const projects: JobCard[] = [
     {
-        id: 1,
+        id: 0,
         name: "Connect Four",
         description: "An online version of the popular Connect Four game with PVP and PVC modes. The PVC features a briliant AI opponent",
         gitLink: "https://github.com/Tarvs01/Connect_Four",
@@ -17,12 +17,20 @@ export const projects: JobCard[] = [
         toolsUsed: ["React", "CSS", "Framer Motion"]
     },
     {
-        id: 2,
+        id: 1,
         name: "Blizzard Clone",
         description: "A clone of the official Blizzard website homepage. Built with React",
         gitLink: "https://github.com/Tarvs01/Blizzard-Clone",
         externalLink: "https://blizzard-clone.onrender.com",
         toolsUsed: ["React", "CSS", "Framer Motion"]
+    },
+    {
+        id: 2,
+        name: "GameHub",
+        description: "Game hub is a gamer centered website where gamers can get gaming news and get access to new and old games through stores.",
+        gitLink: "https://github.com/Tarvs01/Game-Hub",
+        externalLink: "https://gamehub-xlyq.onrender.com/",
+        toolsUsed: ["React", "CSS", "Javascript"]
     },
     {
         id: 3,

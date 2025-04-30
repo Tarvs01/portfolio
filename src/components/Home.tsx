@@ -14,7 +14,7 @@ function Home() {
   const [works, setWorks] = useState<JobCard[] | []>([]);
 
   useEffect(() => {
-    projects.length <= 6 ? setWorks(projects) : projects.slice(0, 6);
+    projects.length <= 6 ? setWorks(projects) : setWorks(projects.slice(0, 6));
   }, []);
 
   return (
