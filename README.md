@@ -1,3 +1,3 @@
 # My Portfolio
 
-- Live link [view-portfolio](https://terver.onrender.com)
+- Live link [view-portfolio](https://tervertorvenda.netlify.app/)
