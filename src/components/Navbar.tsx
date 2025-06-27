@@ -131,7 +131,7 @@ function Navbar() {
 
         {windowWidth >= breakPoint && (
           <ul className="nav-items-cont">
-            <li>
+            <li tabIndex={0}>
               <Link
                 to="about"
                 smooth={true}
@@ -142,7 +142,7 @@ function Navbar() {
                 About
               </Link>
             </li>
-            <li>
+            <li tabIndex={0}>
               <Link
                 to="projects"
                 smooth={true}
@@ -153,7 +153,7 @@ function Navbar() {
                 Work
               </Link>
             </li>
-            <li>
+            <li tabIndex={0}>
               <Link
                 to="contact"
                 smooth={true}
@@ -219,7 +219,7 @@ function Navbar() {
                 key="right-menu"
               >
                 <ul className="small-nav-items-cont">
-                  <li>
+                  <li tabIndex={0}>
                     <Link
                       to="about"
                       smooth={true}
@@ -231,7 +231,7 @@ function Navbar() {
                       About
                     </Link>
                   </li>
-                  <li>
+                  <li tabIndex={0}>
                     <Link
                       to="projects"
                       smooth={true}
@@ -243,7 +243,7 @@ function Navbar() {
                       Work
                     </Link>
                   </li>
-                  <li>
+                  <li tabIndex={0}>
                     <Link
                       to="contact"
                       smooth={true}
